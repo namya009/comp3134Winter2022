@@ -1,0 +1,45 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-14 20:54 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.037s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.20 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 443 amazon.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-14 20:54 UTC
+Nmap scan report for amazon.com (176.32.103.205)
+Host is up (0.032s latency).
+Other addresses for amazon.com (not scanned): 54.239.28.85 205.251.242.103
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.29 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 1-100 netflix.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-14 20:55 UTC
+Nmap scan report for netflix.com (3.225.92.8)
+Host is up (0.032s latency).
+Other addresses for netflix.com (not scanned): 54.160.93.182 3.211.157.115 2600:1f18:631e:2f82:c8cd:27b2:ac:8dbf 2600:1f18:631e:2f84:ceae:e049:1e:6a96 2600:1f18:631e:2f80:77e5:13a7:6533:7584
+rDNS record for 3.225.92.8: ec2-3-225-92-8.compute-1.amazonaws.com
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 2.02 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F walmart.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-14 20:55 UTC
+Nmap scan report for walmart.ca (161.170.244.216)
+Host is up (0.037s latency).
+Other addresses for walmart.ca (not scanned): 161.170.248.216
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.12 seconds
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

@@ -1,0 +1,118 @@
+namya@DESKTOP-TD6EJFU MINGW64 ~
+$ ssh root@143.110.210.251
+root@143.110.210.251's password:
+Welcome to Ubuntu 20.04.2 LTS (GNU/Linux 5.4.0-99-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+ System information disabled due to load higher than 1.0
+
+73 updates can be applied immediately.
+5 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP 1-Click Quickstart guide: https://do.co/3gY97ha#start
+ * Your LAMP website: http://143.110.210.251
+
+On the server:
+ * The default web root is located at /var/www/html
+ * The MySQL root password is saved in /root/.digitalocean_password
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   https://do.co/3gY97ha#enable-https for more detail.
+
+For help and more information, visit https://do.co/3gY97ha
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Last login: Mon Feb 14 03:11:50 2022 from 162.243.190.66
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# apt-get update
+Hit:1 https://repos-droplet.digitalocean.com/apt/droplet-agent main InRelease
+Hit:2 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease
+Get:3 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:4 http://mirrors.digitalocean.com/ubuntu focal InRelease [265 kB]
+Get:5 http://mirrors.digitalocean.com/ubuntu focal-updates InRelease [114 kB]
+Get:6 http://mirrors.digitalocean.com/ubuntu focal-backports InRelease [108 kB]
+Get:7 http://mirrors.digitalocean.com/ubuntu focal-updates/main amd64 Packages [1572 kB]
+Get:8 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [1238 kB]
+Get:9 http://mirrors.digitalocean.com/ubuntu focal-updates/main amd64 c-n-f Metadata [14.7 kB]
+Get:10 http://mirrors.digitalocean.com/ubuntu focal-updates/universe amd64 Packages [904 kB]
+Get:11 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [9560 B]
+Get:12 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [678 kB]
+Get:13 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [116 kB]
+Get:14 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [13.1 kB]
+Get:15 http://mirrors.digitalocean.com/ubuntu focal-updates/universe Translation-en [200 kB]
+Get:16 http://mirrors.digitalocean.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [20.1 kB]
+Fetched 5366 kB in 3s (2066 kB/s)
+Reading package lists... Done
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# apt-get install apache2-utils
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+apache2-utils is already the newest version (2.4.41-4ubuntu3.9).
+0 upgraded, 0 newly installed, 0 to remove and 70 not upgraded.
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping georgebrown.ca
+PING georgebrown.ca (99.79.139.11) 56(84) bytes of data.
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=1 ttl=36 time=38.4 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=2 ttl=36 time=37.2 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=3 ttl=36 time=37.2 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=4 ttl=36 time=37.2 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=5 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=6 ttl=36 time=37.3 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=7 ttl=36 time=37.2 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=8 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=9 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=10 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=11 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=12 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=13 ttl=36 time=37.3 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=14 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=15 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=16 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=17 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=18 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=19 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=20 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=21 ttl=36 time=38.4 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=22 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=23 ttl=36 time=37.2 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=24 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=25 ttl=36 time=37.2 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=26 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=27 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=28 ttl=36 time=37.2 ms
+^C
+--- georgebrown.ca ping statistics ---
+28 packets transmitted, 28 received, 0% packet loss, time 27038ms
+rtt min/avg/max/mdev = 36.969/37.207/38.379/0.331 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping georgebrown.ca -w 15
+PING georgebrown.ca (99.79.139.11) 56(84) bytes of data.
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=1 ttl=36 time=38.5 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=2 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=3 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=4 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=5 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=6 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=7 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=8 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=9 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=10 ttl=36 time=37.1 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=11 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=12 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=13 ttl=36 time=37.2 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=14 ttl=36 time=37.0 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=15 ttl=36 time=37.2 ms
+
+--- georgebrown.ca ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14018ms
+rtt min/avg/max/mdev = 36.950/37.156/38.490/0.362 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

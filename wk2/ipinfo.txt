@@ -1,0 +1,33 @@
+1- cp24.com
+
+IP Address: 23.73.242.135
+
+Geolocation: US (United States), MA, Massachusetts, 02142 Cambridge
+
+
+2- disneyplus.com
+
+IP Address: 54.71.61.241
+
+Geolocation: US (United States), OR, Oregon, 97818 Boardman
+
+
+3- walmart.ca
+
+IP Address: 161.170.248.216
+
+Geolocation: US (United States), AR, Arkansas, 72712 Bentonville
+
+
+4-bestbuy.ca
+
+IP Address: 173.223.237.58
+
+Geolocation: US (United States), MA, Massachusetts, 02142 Cambridge
+
+
+5- apple.com
+
+IP Address: 17.253.144.10
+
+Geolocation: US (United States), CA, California, 95014 Cupertino 

@@ -1,0 +1,44 @@
+namya@DESKTOP-TD6EJFU MINGW64 ~
+$ ping youtube.com
+
+Pinging youtube.com [2607:f8b0:400b:80c::200e] with 32 bytes of data:
+Reply from 2607:f8b0:400b:80c::200e: time=12ms
+Reply from 2607:f8b0:400b:80c::200e: time=12ms
+Reply from 2607:f8b0:400b:80c::200e: time=11ms
+Reply from 2607:f8b0:400b:80c::200e: time=12ms
+
+Ping statistics for 2607:f8b0:400b:80c::200e:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 11ms, Maximum = 12ms, Average = 11ms
+
+namya@DESKTOP-TD6EJFU MINGW64 ~
+$ ping youtube.com -ww 15
+
+Pinging youtube.com [2607:f8b0:400b:80c::200e] with 32 bytes of data:
+Reply from 2607:f8b0:400b:80c::200e: time=11ms
+Reply from 2607:f8b0:400b:80c::200e: time=14ms
+Reply from 2607:f8b0:400b:80c::200e: time=13ms
+Reply from 2607:f8b0:400b:80c::200e: time=16ms
+
+Ping statistics for 2607:f8b0:400b:80c::200e:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 11ms, Maximum = 16ms, Average = 13ms
+
+namya@DESKTOP-TD6EJFU MINGW64 ~
+$ ping amazonprime.com -ww 15
+
+Pinging amazonprime.com [207.171.166.22] with 32 bytes of data:
+Reply from 207.171.166.22: bytes=32 time=34ms TTL=239
+Reply from 207.171.166.22: bytes=32 time=36ms TTL=239
+Reply from 207.171.166.22: bytes=32 time=36ms TTL=239
+Reply from 207.171.166.22: bytes=32 time=35ms TTL=239
+
+Ping statistics for 207.171.166.22:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 34ms, Maximum = 36ms, Average = 35ms
+
+namya@DESKTOP-TD6EJFU MINGW64 ~
+$

@@ -1,0 +1,66 @@
+1- github.com 
+
+Name
+MarkMonitor, Inc.
+Whois Server
+whois.markmonitor.com
+Referral URL
+http://www.markmonitor.com
+Status
+clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+
+
+2- georgebrown.ca
+
+Name
+Webnames.ca Inc.
+Whois Server
+whois.ca.fury.ca
+Referral URL
+www.webnames.ca
+Status
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+
+3- netflix.com
+
+Name
+MarkMonitor, Inc.
+Whois Server
+whois.markmonitor.com
+Referral URL
+http://www.markmonitor.com
+Status
+clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+
+
+
+4- primevideo.com
+
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+
+
+
+5- youtube.com
+
+NameMarkMonitor, Inc.
+Whois Serverwhois.markmonitor.com
+Referral URLhttp://www.markmonitor.com
+StatusclientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)-
